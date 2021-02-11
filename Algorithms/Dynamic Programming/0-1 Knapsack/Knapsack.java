@@ -10,7 +10,7 @@ static int solveKnapsack(int wt[], int val[], int w, int n, int table[][])
 
     if(wt[n-1]<=w)
     {
-        return table[n][w] = Math.max( val[n-1] + solveKnapsack(wt,val,w-wt[n-1],n-1,table) , solveKnapsack(wt,val,w,n-1,table));
+        return table[n][w] = Math.max(val[n-1] + solveKnapsack(wt,val,w-wt[n-1],n-1,table) , solveKnapsack(wt,val,w,n-1,table));
     }
 
     else if(wt[n-1]>w){
