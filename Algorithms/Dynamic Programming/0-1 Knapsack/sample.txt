@@ -1,1 +1,1 @@
-**0/1 Knapsack problem of dynamic programming.**
+0/1 Knapsack problem of dynamic programming
