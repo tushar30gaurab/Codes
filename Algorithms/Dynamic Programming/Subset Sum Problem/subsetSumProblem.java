@@ -1,6 +1,6 @@
 import java.util.*;
 public class subsetSumProblem {
-    static int n,sum;
+    static int n, sum;
 
 static boolean solvesubset(int arr[], int sum, int n, boolean table[][])
 {
