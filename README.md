@@ -1,1 +1,1 @@
-**This is a repository for keeping the track of my coding performance.**
+**Repository for keeping the track of coding performance.**
